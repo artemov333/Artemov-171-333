@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.389,C:\Users\user\Documents\projradstudio\DetSad\dmu.dfm=C:\Users\user\Documents\projradstudio\DetSad\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.852,=C:\Users\user\Documents\projradstudio\DetSad\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.950,C:\Users\user\Documents\projradstudio\DetSad\dmu.cpp=C:\Users\user\Documents\projradstudio\DetSad\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.038,C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\user\Documents\projradstudio\DetSad\DetSad.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.215,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.292,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.045,=C:\Users\user\Documents\projradstudio\DetSad\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.744,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\user\Documents\projradstudio\DetSad\fmu.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.389,C:\Users\user\Documents\projradstudio\DetSad\dmu.h=C:\Users\user\Documents\projradstudio\DetSad\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.608,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.744,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\user\Documents\projradstudio\DetSad\fmu.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.950,C:\Users\user\Documents\projradstudio\DetSad\dmu.h=C:\Users\user\Documents\projradstudio\DetSad\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.744,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\user\Documents\projradstudio\DetSad\fmu.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.389,C:\Users\user\Documents\projradstudio\DetSad\dmu.cpp=C:\Users\user\Documents\projradstudio\DetSad\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.440,C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\user\Documents\projradstudio\DetSad\DetSadPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.259,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+  </Transactions>
+</BorlandProject>

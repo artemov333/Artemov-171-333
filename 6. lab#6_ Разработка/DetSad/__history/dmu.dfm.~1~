@@ -1,0 +1,33 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 455
+  Width = 549
+  object FDConnection1: TFDConnection
+    Left = 48
+    Top = 56
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    Left = 184
+    Top = 80
+  end
+  object FDQuery2: TFDQuery
+    Connection = FDConnection1
+    Left = 240
+    Top = 88
+  end
+  object FDStoredProc1: TFDStoredProc
+    Connection = FDConnection1
+    Left = 256
+    Top = 208
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'FMX'
+    Left = 48
+    Top = 392
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    Left = 112
+    Top = 384
+  end
+end

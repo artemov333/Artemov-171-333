@@ -1,0 +1,80 @@
+//---------------------------------------------------------------------------
+
+#ifndef fmuH
+#define fmuH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <FMX.Controls.hpp>
+#include <FMX.Forms.hpp>
+#include <FMX.Controls.Presentation.hpp>
+#include <FMX.Layouts.hpp>
+#include <FMX.Objects.hpp>
+#include <FMX.StdCtrls.hpp>
+#include <FMX.TabControl.hpp>
+#include <FMX.Types.hpp>
+#include <FMX.Edit.hpp>
+#include <FMX.ListView.Adapters.Base.hpp>
+#include <FMX.ListView.Appearances.hpp>
+#include <FMX.ListView.hpp>
+#include <FMX.ListView.Types.hpp>
+#include <Data.Bind.Components.hpp>
+#include <Data.Bind.DBScope.hpp>
+#include <Data.Bind.EngExt.hpp>
+#include <Fmx.Bind.DBEngExt.hpp>
+#include <FMX.Memo.hpp>
+#include <FMX.ScrollBox.hpp>
+//---------------------------------------------------------------------------
+class Tfm : public TForm
+{
+__published:	// IDE-managed Components
+	TTabControl *tabControl;
+	TTabItem *tabCabinetChild;
+	TImage *Image1;
+	TLayout *Layout1;
+	TLabel *labelName;
+	TLabel *labelNameParent;
+	TLabel *labelNameChild;
+	TLabel *labelNameParentDefault;
+	TLayout *Layout2;
+	TLayout *Layout3;
+	TLayout *Layout4;
+	TLayout *Layout5;
+	TButton *buttonChildGoMain;
+	TTabItem *tabMain;
+	TTabItem *tabCabinetChildSend;
+	TTabItem *tabCabinetChildLook;
+	TButton *buttonGoLook;
+	TButton *buttonGoSendMessage;
+	TLayout *Layout6;
+	TLayout *Layout7;
+	TButton *buttonGoCabinetChild;
+	TButton *buttonSendMessage;
+	TLabel *Label1;
+	TLayout *Layout8;
+	TLayout *Layout9;
+	TButton *buttonLookGoBack;
+	TLayout *Layout10;
+	TEdit *loginMain;
+	TEdit *passwordMain;
+	TButton *buttonMain;
+	TListView *ListView1;
+	TBindSourceDB *BindSourceDB1;
+	TBindingsList *BindingsList1;
+	TMemo *Memo1;
+	TLabel *Label2;
+	void __fastcall buttonMainClick(TObject *Sender);
+	void __fastcall buttonChildGoMainClick(TObject *Sender);
+	void __fastcall buttonGoLookClick(TObject *Sender);
+	void __fastcall buttonGoSendMessageClick(TObject *Sender);
+	void __fastcall buttonGoCabinetChildClick(TObject *Sender);
+	void __fastcall buttonLookGoBackClick(TObject *Sender);
+	void __fastcall buttonSendMessageClick(TObject *Sender);
+	void __fastcall FormCreate(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall Tfm(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE Tfm *fm;
+//---------------------------------------------------------------------------
+#endif

@@ -1,0 +1,315 @@
+object fm: Tfm
+  Left = 0
+  Top = 0
+  Caption = 'det_sad'
+  ClientHeight = 578
+  ClientWidth = 465
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object tabControl: TTabControl
+    Align = Client
+    Size.Width = 465.000000000000000000
+    Size.Height = 578.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 2
+    TabOrder = 1
+    TabPosition = PlatformDefault
+    Sizes = (
+      465s
+      552s
+      465s
+      552s
+      465s
+      552s
+      465s
+      552s)
+    object tabMain: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 118.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #1043#1083#1072#1074#1085#1072#1103' '#1089#1090#1088#1072#1085#1080#1094#1072
+      ExplicitSize.cx = 118.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Layout10: TLayout
+        Align = Client
+        Size.Width = 465.000000000000000000
+        Size.Height = 552.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 0
+          Position.X = 128.000000000000000000
+          Position.Y = 152.000000000000000000
+          Size.Width = 169.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Edit3: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          Position.X = 128.000000000000000000
+          Position.Y = 208.000000000000000000
+          Size.Width = 169.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Button1: TButton
+          Position.X = 128.000000000000000000
+          Position.Y = 280.000000000000000000
+          Size.Width = 169.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Button1'
+          OnClick = Button1Click
+        end
+      end
+    end
+    object tabCabinetChild: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 114.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #1050#1072#1073#1080#1085#1077#1090' '#1088#1077#1073#1077#1085#1082#1072
+      ExplicitSize.cx = 66.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Layout3: TLayout
+        Align = Top
+        Size.Width = 465.000000000000000000
+        Size.Height = 201.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Layout1: TLayout
+          Position.X = 184.000000000000000000
+          Position.Y = 40.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object labelName: TLabel
+            Align = Left
+            Margins.Left = 5.000000000000000000
+            Position.X = 5.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            Text = #1048#1084#1103':'
+            TabOrder = 0
+          end
+          object labelNameChild: TLabel
+            Align = Client
+            Size.Width = 219.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            Text = #1048#1084#1103' '#1088#1077#1073#1077#1085#1082#1072
+            TabOrder = 1
+          end
+        end
+        object Layout2: TLayout
+          Position.X = 184.000000000000000000
+          Position.Y = 120.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object labelNameParent: TLabel
+            Align = Left
+            Margins.Left = 5.000000000000000000
+            Position.X = 5.000000000000000000
+            Size.Width = 89.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            Text = #1048#1084#1103' '#1088#1086#1076#1080#1090#1077#1083#1103':'
+            TabOrder = 0
+          end
+          object labelNameParentDefault: TLabel
+            Align = Client
+            Margins.Left = 5.000000000000000000
+            Size.Width = 166.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            Text = #1048#1084#1103' '#1088#1086#1076#1080#1090#1077#1083#1103' '#1088#1077#1073#1077#1085#1082#1072
+            TabOrder = 1
+          end
+        end
+        object Image1: TImage
+          MultiResBitmap = <
+            item
+            end>
+          Align = Left
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Bottom = 20.000000000000000000
+          Position.X = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 161.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Layout4: TLayout
+        Align = Client
+        Size.Width = 465.000000000000000000
+        Size.Height = 295.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object buttonGoLook: TButton
+          Position.X = 24.000000000000000000
+          Position.Y = 80.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #1055#1086#1089#1084#1086#1090#1088#1077#1090#1100' '#1087#1086#1089#1077#1097#1077#1085#1080#1103
+          OnClick = buttonGoLookClick
+        end
+        object buttonGoSendMessage: TButton
+          Position.X = 24.000000000000000000
+          Position.Y = 168.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = #1054#1090#1087#1088#1072#1074#1080#1090#1100' '#1089#1086#1086#1073#1097#1077#1085#1080#1077
+          OnClick = buttonGoSendMessageClick
+        end
+      end
+      object Layout5: TLayout
+        Align = Bottom
+        Position.Y = 496.000000000000000000
+        Size.Width = 465.000000000000000000
+        Size.Height = 56.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object buttonChildGoMain: TButton
+          Align = Left
+          Size.Width = 169.000000000000000000
+          Size.Height = 56.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #1042#1099#1081#1090#1080
+          OnClick = buttonChildGoMainClick
+        end
+      end
+    end
+    object tabCabinetChildSend: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 139.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #1054#1090#1087#1088#1072#1074#1082#1072' '#1089#1086#1086#1073#1097#1077#1085#1080#1103
+      ExplicitSize.cx = 139.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Layout6: TLayout
+        Align = Client
+        Size.Width = 465.000000000000000000
+        Size.Height = 502.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 0
+          Position.X = 32.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 361.000000000000000000
+          Size.Height = 209.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label1: TLabel
+          Position.X = 32.000000000000000000
+          Position.Y = 40.000000000000000000
+          Size.Width = 169.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Label1'
+          TabOrder = 1
+        end
+      end
+      object Layout7: TLayout
+        Align = Bottom
+        Position.Y = 502.000000000000000000
+        Size.Width = 465.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object buttonGoCabinetChild: TButton
+          Align = Left
+          Size.Width = 169.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #1042#1077#1088#1085#1091#1090#1100#1089#1103
+          OnClick = buttonGoCabinetChildClick
+        end
+        object buttonSendMessage: TButton
+          Align = Right
+          Position.X = 304.000000000000000000
+          Size.Width = 161.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = #1054#1090#1087#1088#1072#1074#1080#1090#1100' '#1089#1086#1086#1073#1097#1077#1085#1080#1077
+          OnClick = buttonSendMessageClick
+        end
+      end
+    end
+    object tabCabinetChildLook: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 190.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #1055#1088#1086#1089#1084#1086#1090#1088' '#1087#1086#1089#1077#1097#1077#1085#1080#1103' '#1088#1077#1073#1077#1085#1082#1072
+      ExplicitSize.cx = 190.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Layout8: TLayout
+        Align = Client
+        Size.Width = 465.000000000000000000
+        Size.Height = 502.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object Layout9: TLayout
+        Align = Bottom
+        Position.Y = 502.000000000000000000
+        Size.Width = 465.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object buttonLookGoBack: TButton
+          Align = Left
+          Size.Width = 153.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #1042#1077#1088#1085#1091#1090#1100#1089#1103
+          OnClick = buttonLookGoBackClick
+        end
+      end
+    end
+  end
+end
